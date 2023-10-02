@@ -231,8 +231,9 @@ const PostScreen = () => {
           transition={softSpringPreset}
           className="text-3xl font-medium leading-loose"
         >
-          The recent things I've been tinkering with.
-
+          看看最近我又在折腾啥捏
+          <br />
+          随便水水文章，重在折腾。
         </m.h2>
         <div>
           <ul className="space-y-4">
@@ -307,7 +308,7 @@ const PostScreen = () => {
                 className="shiro-link--underline"
                 href={routeBuilder(Routes.Posts, {})}
               >
-                More...
+                还有更多，要不要看看？
               </Link>
             </MotionButtonBase>
           </m.div>
@@ -337,7 +338,7 @@ const NoteScreen = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={softBouncePreset}
             >
-              The recent things I've been tinkering with.
+              看看我的近况，这是我最近的所思所想
             </m.h3>
             <Link href={routeBuilder(Routes.Note, { id: theLast.nid })}>
               <m.div
@@ -443,7 +444,7 @@ const NoteScreen = () => {
                     className="shiro-link--underline"
                     href={routeBuilder(Routes.Posts, {})}
                   >
-                    More...
+                    还有更多，要不要看看？
                   </Link>
                 </MotionButtonBase>
               </m.div>
@@ -457,7 +458,9 @@ const NoteScreen = () => {
             opacity: 1,
           }}
         >
-          这里是哪里？
+          而在这里，你会看到一个不同的我，
+          <br />
+          一个在生活中发现美，感受痛苦，洞察人性的我。
         </m.h2>
       </TwoColumnLayout>
     </Screen>
@@ -486,7 +489,7 @@ const FriendScreen = () => {
     <Screen className="flex h-auto min-h-[100vh] center">
       <div className="flex min-w-0 flex-col">
         <BottomToUpTransitionView className="text-center text-3xl font-medium">
-          Friends
+          这些是我珍视的人，他们陪伴我走过人生的每一段旅程。
         </BottomToUpTransitionView>
         <ul
           className={clsx(
@@ -539,7 +542,7 @@ const FriendScreen = () => {
               className="shiro-link--underline"
               href={routeBuilder(Routes.Friends, {})}
             >
-              More...
+              还有更多，要不要看看？
             </Link>
           </MotionButtonBase>
         </BottomToUpTransitionView>
