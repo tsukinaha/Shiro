@@ -203,7 +203,7 @@ const Welcome = () => {
           )}
         >
           <small>
-            
+            Then...
           </small>
           <span className="mt-8 animate-bounce">
             <i className="icon-[mingcute--right-line] rotate-90 text-2xl" />
