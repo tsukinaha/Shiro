@@ -231,9 +231,9 @@ const PostScreen = () => {
           transition={softSpringPreset}
           className="text-3xl font-medium leading-loose"
         >
-          看看最近我又在折腾啥捏
+          The recent things
           <br />
-          随便水水文章，重在折腾。
+          I've been tinkering with.
         </m.h2>
         <div>
           <ul className="space-y-4">
@@ -308,7 +308,7 @@ const PostScreen = () => {
                 className="shiro-link--underline"
                 href={routeBuilder(Routes.Posts, {})}
               >
-                还有更多，要不要看看？
+                More...
               </Link>
             </MotionButtonBase>
           </m.div>
@@ -393,7 +393,7 @@ const NoteScreen = () => {
                 }}
                 className="text-lg"
               >
-                这里还有一些历史回顾
+                这里是哪里呢?
               </m.div>
               <ul className="shiro-timeline mt-4">
                 {history.map((note, i) => {
@@ -444,7 +444,7 @@ const NoteScreen = () => {
                     className="shiro-link--underline"
                     href={routeBuilder(Routes.Posts, {})}
                   >
-                    还有更多，要不要看看？
+                    More...
                   </Link>
                 </MotionButtonBase>
               </m.div>
@@ -489,7 +489,7 @@ const FriendScreen = () => {
     <Screen className="flex h-auto min-h-[100vh] center">
       <div className="flex min-w-0 flex-col">
         <BottomToUpTransitionView className="text-center text-3xl font-medium">
-          这些是我珍视的人，他们陪伴我走过人生的每一段旅程。
+          Friends...
         </BottomToUpTransitionView>
         <ul
           className={clsx(
@@ -542,7 +542,7 @@ const FriendScreen = () => {
               className="shiro-link--underline"
               href={routeBuilder(Routes.Friends, {})}
             >
-              还有更多，要不要看看？
+              More...
             </Link>
           </MotionButtonBase>
         </BottomToUpTransitionView>
