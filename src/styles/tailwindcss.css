@@ -46,9 +46,11 @@ html.noise body::before {
   inset: 0;
   content: '';
   background-size: 182px;
-  opacity: 0.04;
+  opacity: 0.40;
   background-image: url('https://image.tsukinaha.org/1.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 * {
