@@ -444,7 +444,7 @@ const NoteScreen = () => {
                     className="shiro-link--underline"
                     href={routeBuilder(Routes.Posts, {})}
                   >
-                    More...
+                    这里打算放友链来着但有点问题显示不出来（
                   </Link>
                 </MotionButtonBase>
               </m.div>
