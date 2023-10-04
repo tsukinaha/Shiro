@@ -69,7 +69,7 @@ const FONT_CONFIG = {
 }
 
 function loadAndApplyFont(
-  config: (typeof FONT_CONFIG)[keyof typeof FONT_CONFIG],
+  config = FONT_CONFIG['lxgw'],
 ) {
   if ('stylesheetUrl' in config && config.stylesheetUrl) {
     loadStyleSheet(config.stylesheetUrl)
