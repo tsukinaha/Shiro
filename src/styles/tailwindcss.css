@@ -47,7 +47,7 @@ html.noise body::before {
   content: '';
   background-size: 182px;
   opacity: 0.40;
-  background-image: url('https://image.tsukinaha.org/1.jpg');
+  background-image: url('https://neo.tsukinaha.org/1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
