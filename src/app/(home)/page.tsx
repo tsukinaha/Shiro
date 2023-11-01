@@ -489,7 +489,7 @@ const FriendScreen = () => {
     <Screen className="flex h-auto min-h-[100vh] center">
       <div className="flex min-w-0 flex-col">
         <BottomToUpTransitionView className="text-center text-3xl font-medium">
-          这里打算放友链来着但有点问题显示不出来（
+          Friends...
         </BottomToUpTransitionView>
         <ul
           className={clsx(
